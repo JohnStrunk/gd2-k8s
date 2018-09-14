@@ -5,6 +5,8 @@
     - skip
   vars:
     dns_mode: "coredns"
+    docker_mount_flags: "shared"
     kube_network_plugin: "flannel"
     kubeconfig_localhost: true
     local_release_dir: "/var/vagrant/temp"
+    local_volumes_enabled: true
